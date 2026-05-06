@@ -1,6 +1,12 @@
 ---
 name: laravel-error-debugging
-description: Usar cuando el usuario pegue un error, excepción, log, stacktrace o diga que algo falla en Laravel, Livewire, Blade, migraciones, uploads, roles, pagos, trámites, colas, PDF o backoffice. Ejemplos: "me tira este error", "rompió esto", "SQLSTATE", "ParseError", "Property not found", "Call to undefined method", "Livewire no actualiza", "falló el upload".
+description: >
+  Usar cuando el usuario pegue un error, excepción, log, stacktrace
+  o diga que algo falla en Laravel, Livewire, Blade, migraciones,
+  uploads, roles, pagos, trámites, colas, PDF o backoffice.
+  Ejemplos: me tira este error, rompió esto, SQLSTATE, ParseError,
+  Property not found, Call to undefined method, Livewire no actualiza,
+  falló el upload.
 ---
 
 # Debug de errores Laravel con bajo consumo de tokens

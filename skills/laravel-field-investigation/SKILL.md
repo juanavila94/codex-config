@@ -1,6 +1,11 @@
 ---
 name: laravel-field-investigation
-description: Usar cuando el usuario pregunte dónde se carga, usa, valida, modifica, muestra o impacta un campo en un proyecto Laravel. Ejemplos: "dónde se carga el dni", "qué usa el campo email", "qué impacto tiene cambiar estado", "dónde validan teléfono", "qué pasa si cambio este campo".
+description: >
+  Usar cuando el usuario pregunte dónde se carga, usa, valida, modifica,
+  muestra o impacta un campo en un proyecto Laravel.
+  Ejemplos: dónde se carga el dni, qué usa el campo email,
+  qué impacto tiene cambiar estado, dónde validan teléfono,
+  qué pasa si cambio este campo.
 ---
 
 # Investigación de campos Laravel con bajo consumo de tokens
@@ -43,22 +48,23 @@ Ejemplo para DNI:
 
 ```bash
 rg "dni|DNI|documento|numero_documento|nro_documento|cuil|cuit" app database resources
+```
 
 ## Estilo de respuesta
 
-Responder corto y directo.
+Responder corto.
 
-Formato preferido:
+Formato:
 
 ```text
-Encontrado:
+Causa:
 - X.
 
-Impacto:
-- Y.
+Archivo:
+- path/al/archivo.php
 
-Hacer:
-- Z.
+Arreglo:
+- Hacer Y.
 
 Duda:
-- ¿A sí/no?
+- ¿Aplicar cambio? sí/no
