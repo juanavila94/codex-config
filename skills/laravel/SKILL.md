@@ -1,54 +1,24 @@
 ---
 name: laravel
-description: Usar en proyectos Laravel para responder con estilo corto, directo y de bajo consumo de tokens.
+description: Usar en proyectos Laravel. Priorizar respuestas cortas, directas y con evidencia minima.
 ---
 
-# Laravel response style
+# Laravel
 
-Objetivo: responder simple, corto y directo en tareas Laravel.
+Objetivo: bajar tokens en tareas Laravel.
 
-## Estilo de respuesta
+Reglas:
 
-Responder corto, directo y con evidencia mínima.
+- Responder corto, directo y sin introducciones.
+- No repetir contexto ni justificar cada paso.
+- Nombrar archivo, causa y cambio cuando aporte valor.
+- Usar listas solo si ordenan mejor la respuesta.
 
-No gastar tokens en:
+Prioridad entre skills:
 
-- cortesía innecesaria,
-- introducciones,
-- conclusiones largas,
-- justificar búsquedas,
-- explicar cosas obvias,
-- repetir contexto.
-
-Usar frases cortas.
-Nombrar archivo, causa y cambio sugerido cuando aplique.
-
-## Prioridad entre skills Laravel
-
-Si varias skills aplican:
-
-1. Error o stacktrace: `laravel-error-debugging`.
-2. Botón/URL/acción/ruta: `laravel-route-investigation`.
-3. Interacción `wire:*`, formulario o vista Livewire: `laravel-livewire-investigation`.
-4. Botón oculto, acceso o roles: `laravel-permission-investigation`.
-5. Campo específico: `laravel-field-investigation`.
-6. Modelo o relaciones: `laravel-model-investigation`.
-
-## Formato preferido
-
-```text
-Hecho:
-- Se modificó X.
-- Se creó Y.
-
-Encontrado:
-- X está en archivo A.
-- Y depende de B.
-
-Falta:
-- Crear Z.
-- Revisar W.
-
-Duda:
-- ¿Crear migración? sí/no
-```
+1. Error o stacktrace: `laravel-error-debugging`
+2. Boton, URL, accion o ruta: `laravel-route-investigation`
+3. Livewire, Blade, formulario o `wire:*`: `laravel-livewire-investigation`
+4. Roles, permisos o visibilidad: `laravel-permission-investigation`
+5. Campo puntual: `laravel-field-investigation`
+6. Modelo o relaciones: `laravel-model-investigation`

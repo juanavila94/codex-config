@@ -1,0 +1,4 @@
+interface:
+  display_name: "TESI Module Builder"
+  short_description: "Build TESI modules from specs"
+  default_prompt: "Lee la ficha tecnica, carga el contexto del proyecto padre y crea o planifica el modulo por etapas."
